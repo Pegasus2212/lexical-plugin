@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": " webpack-dev-server --open --config ./webpack.dev.js --mode development  --hot --history-api-fallback"
+    "start": " webpack-dev-server --open --config ./webpack.dev.js --mode development  --hot --history-api-fallback",
+    "build:prod": "webpack --config ./webpack.prod.js --mode production"
   },
   "keywords": [],
   "author": "",
