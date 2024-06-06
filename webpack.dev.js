@@ -20,7 +20,6 @@ module.exports = merge(common, {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"), // to import index.html file inside index.js
       title: "Flow Builder",
-      // favicon: "src/assets/trigitt.svg",
       filename: "index.html",
     }),
   ],
