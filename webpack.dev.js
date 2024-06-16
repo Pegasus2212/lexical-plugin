@@ -19,7 +19,7 @@ module.exports = merge(common, {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"), // to import index.html file inside index.js
-      title: "Flow Builder",
+      title: "Lexical_Editor",
       filename: "index.html",
     }),
   ],

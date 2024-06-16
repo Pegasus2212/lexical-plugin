@@ -1,5 +1,5 @@
 {
-  "name": "flow-builder",
+  "name": "lexical-editor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,20 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@lexical/react": "^0.16.0",
+    "@mui/material": "^5.15.20",
     "@svgr/webpack": "^8.1.0",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
-    "framer-motion": "^11.2.10",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
+    "lexical": "^0.16.0",
+    "mui-color-input": "^2.0.3",
     "nanoid": "^5.0.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
-    "reactflow": "^11.11.3",
     "style-loader": "^4.0.0"
   },
   "devDependencies": {
